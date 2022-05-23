@@ -51,29 +51,34 @@ body{
     font-weight: light;
 }
 
-
-
-
 .hero-drummkit{
     display: inline-block;
     width: 500px;
     height: 300px;
     background: red;
     color: white;
+    position: relative;
 }
 
-.hero-drummkit img{
+.drummkitbox1 img{
     width: 100%;
-    min-width: 250px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.drummkitbox1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 .drummkitbox2{
-    position: relative;
-
+        position: absolute;
+        top: 0px;
+        left: 0px;
 }
+
 .A-button {
-    margin-top: -282px;
-    margin-left: 9px;
     background: blue;
     position: absolute;
     padding: 24px 24px;
@@ -81,8 +86,6 @@ body{
 }
 
 .B-button {
-    margin-top: -216px;
-    margin-left: 40px;
     background: yellow;
     position: absolute;
     padding: 24px 24px;
@@ -90,8 +93,6 @@ body{
 }
 
 .C-button {
-    margin-top: -145px;
-    margin-left: 63px;
     background: violet;
     position: absolute;
     padding: 37px 37px;
@@ -99,8 +100,6 @@ body{
 }
 
 .D-button {
-    margin-top: -254px;
-    margin-left: 114px;
     background: white;
     position: absolute;
     padding: 37px 37px;
@@ -108,8 +107,6 @@ body{
 }
 
 .E-button {
-    margin-top: -254px;
-    margin-left: 214px;
     background: white;
     position: absolute;
     padding: 37px 37px;
@@ -117,8 +114,6 @@ body{
 }
 
 .F-button {
-    margin-top: -145px;
-    margin-left: 268px;
     background: violet;
     position: absolute;
     padding: 37px 37px;
@@ -126,8 +121,6 @@ body{
 }
 
 .G-button {
-    margin-top: -216px;
-    margin-left: 312px;
     background: yellow;
     position: absolute;
     padding: 24px 24px;
@@ -135,8 +128,6 @@ body{
 }
 
 .H-button {
-    margin-top: -281px;
-    margin-left: 347px;
     background: blue;
     position: absolute;
     padding: 24px 24px;
