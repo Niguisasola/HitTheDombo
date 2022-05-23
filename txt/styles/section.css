@@ -1,0 +1,23 @@
+
+.subscribe{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.subscribe h2{
+    color: white;
+    font-weight: 500;
+}
+
+.subscribe p{
+    color: gray;
+    font-weight: lighter;
+}
+
+.price{
+    background: white;
+    padding: 6px 43px;
+    border-radius: 22px;
+    margin-top: 10px;
+}

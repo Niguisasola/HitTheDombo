@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hit the Dombo</title>
+        <link rel="stylesheet" href="./styles/header.css">
+        <link rel="stylesheet" href="./styles/main.css">
+        <link rel="stylesheet" href="./styles/section.css">
+        <link rel="stylesheet" href="./styles/font.css">
+    </head>
+    <body>
+    <div class="container">
+        <header class="header">
+            <div class="btn-burguer">
+                <button>menu</button>
+            </div>
+            <img src="./img/logo-brand.png" alt="LOGO-brand">   
+            <nav class="navbar-main">
+                <ul>
+                    <li class="navbar-btn">Premium</li>
+                    <li class="navbar-btn">Help</li>
+                    <li class="navbar-btn">Download</li>
+                    <li class="btn-special">Sign Up</li>
+                    <li class="navbar-btn">Log In</li>
+                </ul>
+            </nav>
+        </header>
+        <main class="hero">
+            <div class="hero-text">
+                <h1>Music for<br>Everyone.</h1>
+                <p>Millions of songs. No credit card needed.</p>
+                <button class="btn-drummkit">Hit the</button>
+            </div>
+            <div class="hero-drummkit">
+                <div class="drummkitbox1">
+                    <img src="./img/Foto-dombo.png" alt="Drumkit here">
+                </div>
+                <div class="drumkitbox2">
+                    <audio id="Bombo1" src="./sonido/Bombo1.mp3"></audio>
+                    <button type="button" class="A-button" onclick="playBombo1()">A1</button>
+                    <audio id="Crash2" src="./sonido/Crash2.mp3"></audio>
+                    <button type="button" class="B-button" onclick="playCrash2()">B2</button>
+                    <audio id="HitHat3" src="./sonido/Hit-Hat3.mp3"></audio>
+                    <button type="button" class="C-button" onclick="playHitHat3()">C3</button>
+                    <audio id="Redoblante4" src="./sonido/Redoblante4.mp3"></audio>
+                    <button type="button" class="D-button" onclick="playRedoblante4()">D4</button>
+                    <audio id="Tom5" src="./sonido/Tom5.mp3"></audio>
+                    <button type="button" class="E-button" onclick="playTom5()">E5</button>
+                    <audio id="Tom6" src="./sonido/Tom6.mp3"></audio>
+                    <button type="button" class="F-button" onclick="playTom6()">F6</button>
+                    <audio id="Tom7" src="./sonido/Tom7.mp3"></audio>
+                    <button type="button" class="G-button" onclick="playTom7()">G7</button>
+                    <audio id="Tom8" src="./sonido/Tom8.mp3"></audio>
+                    <button type="button" class="H-button" onclick="playTom8()">H8</button>
+                </div>
+            </div>
+        </main>
+        <section class="subscribe">
+            <h2>Try Premium free for 1 month.</h2>
+            <p>Play millions of songs ad-free, on-demand, and offline.</p>
+            <button class="price">SEE PRICING</button>
+        </section>
+    </div>
+    <script>
+        function playBombo1() {
+            var audio = document.getElementById("Bombo1");
+            audio.play();
+        }
+        function playCrash2(){
+            var audio = document.getElementById("Crash2");
+            audio.play();
+        }
+        function playHitHat3(){
+            var audio = document.getElementById("HitHat3");
+            audio.play();
+        }
+        function playRedoblante4(){
+            var audio = document.getElementById("Redoblante4");
+            audio.play();
+        }
+        function playTom5(){
+            var audio = document.getElementById("Tom5");
+            audio.play();
+        }
+
+        function playTom6(){
+            var audio = document.getElementById("Tom6");
+            audio.play();
+        }
+
+        function playTom7(){
+            var audio = document.getElementById("Tom7");
+            audio.play();
+        }
+
+        function playTom8(){
+            var audio = document.getElementById("Tom8");
+            audio.play();
+        }
+    </script>
+</body>
+</html>
