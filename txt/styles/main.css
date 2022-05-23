@@ -80,56 +80,79 @@ body{
 
 .A-button {
     background: blue;
+    top: 2vh;
+    left: 0.8vw;
     position: absolute;
-    padding: 24px 24px;
-    border-radius: 200px;
+    height: 8.5vh;
+    width: 8.5vw;
+    border-radius: 50%;
 }
 
 .B-button {
-    background: yellow;
+    top: 10.5vh;
+    left: 4.8vw;
     position: absolute;
-    padding: 24px 24px;
-    border-radius: 200px;
+    height: 8.5vh;
+    width: 8.5vw;
+    border-radius: 50%;
 }
 
 .C-button {
     background: violet;
+    top: 19.5vh;
+    left: 7.8vw;
     position: absolute;
-    padding: 37px 37px;
-    border-radius: 200px;
+    height: 11.5vh;
+    width: 11.5vw;
+    border-radius: 50%;
 }
 
 .D-button {
     background: white;
+    top: 5.5vh;
+    left: 14.8vw;
     position: absolute;
-    padding: 37px 37px;
-    border-radius: 200px;
+    height: 12vh;
+    width: 12vw;
+    border-radius: 50%;
 }
 
 .E-button {
     background: white;
+    top: 5.5vh;
+    left: 26.8vw;
     position: absolute;
-    padding: 37px 37px;
-    border-radius: 200px;
+    height: 12vh;
+    width: 12vw;
+    border-radius: 50%;
 }
 
 .F-button {
     background: violet;
     position: absolute;
-    padding: 37px 37px;
-    border-radius: 200px;
+    top: 2vh;
+    left: 43.8vw;
+    height: 8.5vh;
+    width: 8.5vw;
+    border-radius: 50%;
 }
 
 .G-button {
     background: yellow;
+    top: 10.5vh;
+    left: 39.8vw;
     position: absolute;
-    padding: 24px 24px;
-    border-radius: 200px;
+    height: 8.5vh;
+    width: 8.5vw;
+    border-radius: 50%;
 }
 
 .H-button {
     background: blue;
+    top: 19.5vh;
+    left: 33.8vw;
     position: absolute;
-    padding: 24px 24px;
-    border-radius: 200px;
+    height: 11.5vh;
+    width: 11.5vw;
+    border-radius: 50%;
 }
