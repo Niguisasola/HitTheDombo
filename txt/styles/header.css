@@ -53,11 +53,11 @@
         justify-content: flex-end;
         padding: 10px;
     }
+
     .btn-burguer button{
         background-color: rgb(56, 230, 43);
-        border-radius: 30px;
-        padding: 10px;
-        border:none;
+        border-radius: 20px;
+        padding: 5px 15px 5px 30px;
         color:white;
     }
 }

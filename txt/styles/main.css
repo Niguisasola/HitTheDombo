@@ -22,10 +22,11 @@ body{
 .hero{
     display: flex;
     align-items: center;
-    padding: 0px 30px;
 }
 
 .hero-text{
+    align-items: flex-end;
+    justify-content: center;
     width: 50%;
     font-style: normal;
     font-weight: lighter;
@@ -57,6 +58,7 @@ body{
     background: red;
     color: white;
     position: relative;
+    display: flex;
 }
 
 .hero-drummkit img{
@@ -145,4 +147,27 @@ body{
     border-radius: 50%;
 }
 
-@media (max-width: )
+@media (max-width: 600px){
+    .hero-drummkit{
+        justify-content: center;
+        height: auto;
+    }
+    
+    .hero{
+        flex-direction: column-reverse;
+    }
+
+    .hero-text{
+        justify-content: center;
+        flex-direction: column;
+        align-items: right;
+        height: auto;
+    }
+
+    .btn-drummkit{
+        position: static;
+        padding: 6px 43px;
+        border-radius: 22px;
+    }
+
+    }
