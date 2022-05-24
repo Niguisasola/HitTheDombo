@@ -35,7 +35,10 @@ body{
 .hero-text p{
     opacity: 10;
     font-size: 0.8em;
-    color: gray;
+    color: rgb(94, 93, 93);
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-weight:bolder;
 }
 
 .hero-text h1{
@@ -55,7 +58,6 @@ body{
 .hero-drummkit{
     width: 50%;
     height: auto;
-    background: red;
     color: white;
     position: relative;
     display: flex;
@@ -68,7 +70,7 @@ body{
 }
 
 .A-button {
-    background: blue;
+    background-color: black;
     top: 6%;
     left: 2%;
     position: absolute;
@@ -78,8 +80,8 @@ body{
 }
 
 .B-button {
-    background: yellow;
-    top: 27%;
+    background-color: black;
+    top: 28%;
     left: 9%;
     position: absolute;
     height: 23%;
@@ -88,8 +90,8 @@ body{
 }
 
 .C-button {
-    background: violet;
-    top: 50%;
+    background-color: black;
+    top: 52%;
     left: 15%;
     position: absolute;
     height: 31%;
@@ -98,8 +100,8 @@ body{
 }
 
 .D-button {
-    background: white;
-    top: 14%;
+    background-color: black;
+    top: 15%;
     left: 27%;
     position: absolute;
     height: 31%;
@@ -108,8 +110,8 @@ body{
 }
 
 .E-button {
-    background: white;
-    top: 14%;
+    background-color: black;
+    top: 15%;
     left: 51%;
     position: absolute;
     height: 31%;
@@ -118,7 +120,7 @@ body{
 }
 
 .F-button {
-    background: violet;
+    background-color:black;
     top: 5.7%;
     left: 81.5%;
     position: absolute;
@@ -128,8 +130,8 @@ body{
 }
 
 .G-button {
-    background: yellow;
-    top: 27%;
+    background-color: black;
+    top: 28%;
     left: 73%;
     position: absolute;
     height: 23%;
@@ -138,8 +140,8 @@ body{
 }
 
 .H-button {
-    background: blue;
-    top: 50%;
+    background-color: black;
+    top: 52%;
     left: 62%;
     position: absolute;
     height: 31%;
@@ -149,6 +151,10 @@ body{
 
 @media (max-width: 600px){
     .hero-drummkit{
+        margin-top: 10%;
+        margin-bottom: 7%;
+        width: 70%;
+        display: flex;
         justify-content: center;
         height: auto;
     }
@@ -158,10 +164,19 @@ body{
     }
 
     .hero-text{
+        display: flex;
+        width: 70%;
+        font-size: larger;
         justify-content: center;
         flex-direction: column;
-        align-items: right;
+        align-items: center;
         height: auto;
+        margin-bottom: 10%;
+    }
+
+    .hero-text p{
+        margin-bottom: 10%;
+        font-size: smaller;
     }
 
     .btn-drummkit{
@@ -169,5 +184,5 @@ body{
         padding: 6px 43px;
         border-radius: 22px;
     }
-
+    
     }
