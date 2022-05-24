@@ -5,24 +5,32 @@
     align-items: center;
     margin-top: 10%;
     margin-left: 5%;
-    font-family: 'M Plus Rounded 1c', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .subscribe h2{
     color: white;
-    font-weight: 100px;
+    font-weight: 2em;
 }
 
 .subscribe p{
-    color: gray;
-    font-weight: lighter;
+    font-size: 0.8em;
+    color: rgb(94, 93, 93);
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-weight:bolder;
 }
 
 .price{
     background: white;
-    padding: 6px 43px;
-    border-radius: 22px;
+    padding: 6px 20px;
+    border-color: solid white;
+    font-size: 0.5em;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
     margin-top: 10px;
+    font-weight: bold;
 }
 
 @media (min-width: 600px){
@@ -33,8 +41,27 @@
 }
 
 @media (max-width: 600px){
+    .subscribe {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subscribe h2{
+        font-size: 1em;
+    }
+
+    .subscribe  p{
+        font-size: 0.5em;
+        }
+
     .Hit{
-    background-color: rgb(62, 61, 61);
+    background-color: rgb(29, 28, 28);
+    border-color: solid rgb(111, 109, 109);
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(111, 109, 109);
     top: 20%;
     left: 50%;
     margin-bottom: 10%;
